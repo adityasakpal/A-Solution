@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i,900,900i&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+/*navbar start*/
+.nav-item a{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.active{
+	color: rgb(147,202,57)!important;
+}
+.nav-link:hover{
+    color: rgb(147,202,57)!important;
+}
+/*navbar end*/
+
+/*banner start*/
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/banner.jpg);
+	width: 100%;
+	/*height:100vh;*/
+	padding: 20%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.banner-heading{
+	font-size: 35px;
+    color: white;
+}
+.banner-subheading{
+	font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+.banner-button{
+	background-color: rgb(147,202,57);
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    font-size: 15px;
+}
+/*banner end*/
+
+/*what we do start*/
+.what-we-do{
+	padding: 4rem 0;
+}
+.what-we-do-icon{
+	font-size: 40px;
+	margin: 5px 20px 0 0;
+}
+.what-we-do-heading{
+	font-size: 29px;
+    font-weight: bold;
+}
+.what-we-do-hr{
+	margin: 8px 0;
+    border: 1px solid black;
+    width: 95%;
+}
+.what-we-do-para{
+
+}
+/*what we do end*/
+
+/*we provide solution start*/
+.we-provide-solution{
+	padding: 4rem 0;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/banner2.jpg); 
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.we-provide-soln-heading{
+	font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+.solution{
+	color: rgb(144,202,55);
+}
+.position{
+	font-weight: bold;
+    font-size: 27px;
+    color: white;
+    margin-top: 16px;
+}
+.Creative-talented{
+	border: 1px solid white;
+    padding: 3px 5px;
+    background-color: rgb(253,248,228);
+    color: black;
+}
+.we-provide-solution-para{
+	color: white;
+}
+/*we provide solution end*/
+
+/*about solution start*/
+.abt-soln{
+	padding: 4rem 0 0 0;
+}
+.about-solution-heading{
+	font-size: 42px;
+    font-weight: bold;
+    color: rgb(144,202,55);
+}
+.about-solution-subheading{
+	font-size: 21px;
+    font-weight: bold;
+}
+.about-solution-para{
+	font-size: 15px;
+}
+.skills{
+    color: black;
+    margin: 10px 0px!important; 
+}	
+.progress{
+
+}
+.progress-bar{
+    color: black;
+    background-color: rgb(144,202,55);
+}
+/*about solution end*/
+
+/*meet the team start*/
+.meet-the-team{
+	padding: 4rem 0;
+}
+.heading{
+	font-size: 28px;
+    font-weight: bold;
+}
+.meet-the-team-img{
+	border: 1px solid #E0E0E0;
+    padding: 5px;
+}
+.team-mem-heading{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    }
+.team-mem-name{
+	font-weight: bold;
+	color: rgb(144,202,55);
+}
+.team-mem-icon{
+	padding: 0 10px;
+    font-size: 14px;
+}
+/*meet the team end*/
+
+/*get our newsletter start*/
+.get-our-newsletter{
+	padding: 5rem 0;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/banner3.jpg); 
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.get-our-newsletter-heading{
+	color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.get-our-newsletter-para{
+	color: white;
+	font-size: 15px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 44px;
+  border: none;
+  margin: 0 15px;
+}
+  
+#email {
+  width: 30%;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 0;
+    border: 1px solid white;
+    background: none;
+}
+
+#submit {
+    height: 46px;
+    color: white;
+    padding: 10px 15px;
+    background: rgb(147,202,57);
+    letter-spacing: 1px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+  
+#submit:hover {
+  background: white;
+  color: black;
+}
+  
+input:focus {
+  outline: none;
+  outline: 2px solid rgb(147,202,57);
+  box-shadow: 0 0 2px #E86C8D;
+}
+/*get our newsletter end*/
+
+/*our pricing start*/
+.our-pricing{
+	padding: 4rem 0;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.Basic{
+	border: 1px solid rgba(0,0,0,.1);
+}
+.our-pricing-heading{
+	font-size: 30px;
+    font-weight: bold;
+    color: rgb(147,202,57);
+}
+.our-pricing-subheading{
+	list-style: none;
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 0;
+}
+ul.our-pricing-subheading li {
+    margin: 30px 0;
+}
+.our-pricing-button{
+	background-color: rgb(147,202,57);
+    color: white;
+    padding: 8px 30px;
+    margin: 1rem 0 2.5rem 0;
+    font-size: 13px;
+    border: none;
+}
+
+/*our pricing ends*/
+
+/*recent projects start*/
+.recent-projects{
+	padding: 3rem 0;
+}
+.recent-projects-grid{
+	margin-top: 1rem;
+}
+.recent-projects-menu ul{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.recent-projects-menu ul li{
+	padding: 5px 10px;
+    border: 1px solid grey;
+    margin: 0 5px;
+}
+/*recent projects end*/
+
+/*contact form start*/
+.contact-form{
+	padding: 4rem 0 5rem 0;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(../images/blackwall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.solution-co{
+	font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.solution-co-para{
+	font-size: 17px;
+	color: white;
+}
+.solution-co-icon{
+	color: rgb(147,202,57);
+	font-size: 18px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.visit-office-heading{
+	font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+.visit-office-para{
+	font-size: 16px;
+	color: white;
+}
+.visit-office-icon{
+	color: rgb(147,202,57);
+	font-size: 18px;
+	padding-right: 10px;
+}
+.contact-form-button{
+	    height: 44px;
+    border: none;
+    margin: 0;
+    padding: 0 30px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+/*contact form end*/
+
+/*footer*/
+.footer{
+	padding: 2rem 0 1rem 0;
+}
+.text-center{
+	padding: 20px 0;
+}
+.footer-icon{
+	padding: 0 10px;
+}
