@@ -277,6 +277,10 @@ ul.our-pricing-subheading li {
 	padding: 5px 10px;
     border: 1px solid grey;
     margin: 0 5px;
+    cursor: pointer;
+}
+.filtr-item img{
+    width: 95%;
 }
 /*recent projects end*/
 
@@ -337,4 +341,20 @@ ul.our-pricing-subheading li {
 }
 .footer-icon{
 	padding: 0 10px;
+}
+
+
+@media screen and (max-width: 425px){
+  .recent-projects-menu ul{
+    padding-left: 0px;    
+  }  
+}
+
+@media screen and (max-width: 375px){
+.recent-projects-menu ul li {
+    padding: 0px 5px;
+    border: 1px solid grey;
+    margin: 0 5px;
+    cursor: pointer;
+}
 }
